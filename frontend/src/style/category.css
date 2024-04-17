@@ -1,0 +1,14 @@
+.category {
+  position: relative;
+}
+.catMenu {
+  display: none;
+}
+.catMenu:hover {
+  display: block;
+}
+.category:hover .catMenu {
+  display: block;
+  position: absolute;
+  top: 23px;
+}
